@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+    <!-- Wrench icon representing "Fix" -->
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M54,28 C47.4,28 42,33.4 42,40 C42,43.1 43.3,45.9 45.3,47.9 L35.2,58 C34.4,58.8 34,59.9 34,61 C34,63.2 35.8,65 38,65 C39.1,65 40.2,64.6 41,63.8 L51.1,53.7 C53.1,54.7 55.5,55.2 58,54.8 C63.5,53.9 67.8,49.2 68,43.6 C68.1,41.5 67.5,39.5 66.5,37.8 L59.5,44.8 L52.2,44.8 L52.2,37.5 L59.2,30.5 C57.5,29.5 55.5,28.9 53.4,29 L54,28Z" />
+</vector>
