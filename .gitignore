@@ -1,6 +1,54 @@
-venv/
-__pycache__/
-*.pyc
+# ==========================================
+# 1. Sensitive & Private Files (NEVER COMMIT)
+# ==========================================
 .env
+*.env
+*.pem
+*.key
+*.keystore
+*.jks
+local.properties
+google-services.json
+
+# ==========================================
+# 2. Python Virtual Environments & Cache
+# ==========================================
+venv/
+env/
+ENV/
+.venv/
+__pycache__/
+*.py[cod]
+*$py.class
+.pytest_cache/
+.coverage
+htmlcov/
+
+# ==========================================
+# 3. Android & Gradle Build Artifacts
+# ==========================================
+.gradle/
+build/
+*/build/
+*.apk
+*.aab
+*.ap_
+captures/
+.externalNativeBuild/
+.cxx/
+
+# ==========================================
+# 4. IDE & OS Specific Files
+# ==========================================
 .idea/
 .vscode/
+*.iml
+.DS_Store
+Thumbs.db
+
+# ==========================================
+# 5. User Uploads / Runtime Media
+# ==========================================
+uploads/
+backend/uploads/
+*.log
