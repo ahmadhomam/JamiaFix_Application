@@ -1,5 +1,5 @@
 # ==========================================
-# 1. Sensitive & Private Files (NEVER COMMIT)
+# 1. Sensitive & Private Files
 # ==========================================
 .env
 *.env

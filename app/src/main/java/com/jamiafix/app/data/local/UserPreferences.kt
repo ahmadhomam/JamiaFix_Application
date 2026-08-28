@@ -27,7 +27,7 @@ class UserPreferences(private val context: Context) {
 
         // USB tunnel via: adb reverse tcp:8000 tcp:8000
         // Phone's 127.0.0.1:8000 → PC's localhost:8000 (works on any WiFi)
-        const val DEFAULT_BASE_URL = "http://127.0.0.1:8000/"
+        const val DEFAULT_BASE_URL = "http://10.57.1.228:8000/"
     }
 
     val tokenFlow: Flow<String?> = context.dataStore.data.map { prefs ->
